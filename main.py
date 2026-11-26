@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """The 4AM Commit: Funniest Agent Bug-Fix Message (make.fun).
 
-Writes the entry -- one original one-line bug-fix commit message -- to /output/entry.txt,
-where the sealed scorer reads it.
+Writes the entry -- one original one-line bug-fix commit message, kept
+as a single line with no trailing newline -- to /output/entry.txt, where
+the sealed scorer reads it.
 """
 
 import os
